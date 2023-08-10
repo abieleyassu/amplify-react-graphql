@@ -3,11 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import { Heading } from '@aws-amplify/ui-react';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <Heading level={2} fontWeight={tokens.fontWeights.thin}>
         Heading Text
       </Heading>
@@ -16,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
