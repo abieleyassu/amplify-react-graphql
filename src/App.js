@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Heading level={2} fontWeight={tokens.fontWeights.thin}>
+        <Heading level={2}>
         Heading Text
       </Heading>
       </header>
