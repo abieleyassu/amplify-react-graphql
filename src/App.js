@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Heading } from '@aws-amplify/ui-react';
 
-function Home() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,4 +15,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default App;
